@@ -1,7 +1,7 @@
 #This is a program for the sorting method Bubble Sort.
 import math
 #Takes user input and splits the input into a list of integers/floats.
-raw_data=(input("Enter numbers seperated by a space in least to greatest: ")).split(" ")
+raw_data=(input("Enter numbers seperated by a space: ")).split(" ")
 usable_data=[]
 for word_number in raw_data:
     usable_data.append(eval(word_number))
